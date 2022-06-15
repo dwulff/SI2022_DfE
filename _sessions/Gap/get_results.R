@@ -23,7 +23,8 @@ pa_test_s = p_arrange(as.matrix(p_test),2)
 
 # GET PREDICTIONS --------
 
-d = read_sheet(ss = "19m0NSqmE6Wo1YnSfJkB_7BS6gF1roV9iGJ0leqZl-HQ")
+gs4_deauth()
+d = read_sheet(ss = "https://docs.google.com/spreadsheets/d/19m0NSqmE6Wo1YnSfJkB_7BS6gF1roV9iGJ0leqZl-HQ/edit?usp=sharing")
 d = d %>% mutate_all(unlist)
 d = d %>% mutate(
   Alpha = as.numeric(Alpha),
@@ -117,9 +118,9 @@ plot_xplore = function(pars, mses, alpha = .1, q = .001){
   points(pars[sel,6],mses[sel],pch=16,col=col,cex=1.5)
 }
 
-#pdf('~/Dropbox (2.0)/Work/Teaching/Workshops/DfEWorkshop/xploreParticipantRes.pdf')
+pdf('~/Dropbox (2.0)/Work/Workshops/SI2022_DfE/_sessions/Gap/participant_results.pdf')
   plot_xplore(as.matrix(d[,-(1:2),drop=F]),mses,alpha=1,q=0)
-#dev.off()
+dev.off()
 
 winners = d[which(mses == min(mses)),2]
 winners

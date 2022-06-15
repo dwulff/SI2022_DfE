@@ -27,7 +27,7 @@ output:
 
 <br>
 
-### Decisions from experience
+### Experienced-based choice
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/dwulff/SI2021_DfE/master/_sessions/_image/drosophila.png" width=480px style="height:80px">
@@ -46,7 +46,7 @@ Go to this <a href="https://taming-uncertainty.mpib-berlin.mpg.de/chapter-7-elem
 
 Go to this <a href="https://taming-uncertainty.mpib-berlin.mpg.de/chapter-7-element-2">**site**</a> to explore the cognitive underpinnings of decisions from experience. 
 
-When you think you have found the best mix of cognitive components go to this <a href="https://forms.gle/sJBPGwCNUCfMvcZD6">**questionnarie**</a> to enter your predictions.
+When you think you have found the best mix of cognitive components go to this <a href="https://forms.gle/LDtJq6bvAXZoyvN69">**questionnarie**</a> to enter your predictions.
 
 </div>
 
